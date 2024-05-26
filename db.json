@@ -1,46 +1,6 @@
 {
   "recipes": [
     {
-      "id": "1",
-      "title": "Spaghetti Carbonara 2",
-      "price": 12.99,
-      "description": "A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.",
-      "image": "https://th.bing.com/th/id/OIP.dchqjONJhrMllqIkMeIZbwAAAA?rs=1&pid=ImgDetMain",
-      "category": "Thai"
-    },
-    {
-      "id": "2",
-      "title": "Chicken Tikka Masala",
-      "price": 15.99,
-      "description": "Grilled chunks of chicken enveloped in a creamy, spiced tomato sauce.",
-      "image": "https://example.com/images/chicken-tikka-masala.jpg",
-      "category": "Indian"
-    },
-    {
-      "id": "3",
-      "title": "Sushi Platter",
-      "price": 24.99,
-      "description": "A variety of fresh sushi including nigiri, sashimi, and rolls.",
-      "image": "https://example.com/images/sushi-platter.jpg",
-      "category": "Japanese"
-    },
-    {
-      "id": "4",
-      "title": "Tacos al Pastor",
-      "price": 10.99,
-      "description": "Flavorful marinated pork served on small corn tortillas with pineapple and onions.",
-      "image": "https://example.com/images/tacos-al-pastor.jpg",
-      "category": "Mexican"
-    },
-    {
-      "id": "5",
-      "title": "Pad Thai",
-      "price": 11.99,
-      "description": "A stir-fried rice noodle dish with shrimp, tofu, peanuts, and tamarind sauce.",
-      "image": "https://example.com/images/pad-thai.jpg",
-      "category": "Thai"
-    },
-    {
       "id": "6",
       "title": "Beef Wellington",
       "price": 29.99,
@@ -103,35 +63,6 @@
       "description": "Lightly battered and deep-fried seafood and vegetables.",
       "image": "https://example.com/images/tempura.jpg",
       "category": "Japanese"
-    },
-    {
-      "id": "14",
-      "title": "Ramen",
-      "price": 12.99,
-      "description": "A hearty Japanese noodle soup with meat, vegetables, and broth.",
-      "image": "https://example.com/images/ramen.jpg",
-      "category": "Japanese"
-    },
-    {
-      "id": "147",
-      "title": "test1111",
-      "price": "7878",
-      "category": "Mexican",
-      "descrition": "test"
-    },
-    {
-      "id": "121212",
-      "title": "Test ",
-      "price": "121",
-      "category": "Mexican",
-      "description": "test descittion"
-    },
-    {
-      "id": "3",
-      "title": "big house",
-      "price": "122",
-      "category": "Thai",
-      "description": "edewcwecw"
     }
   ],
   "categories": [

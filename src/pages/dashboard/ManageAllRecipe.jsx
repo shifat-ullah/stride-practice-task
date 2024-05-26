@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import RecipeRow from "../../components/cards/RecipeRow";
 
 export default function ManageAllRecipe() {
-  const [recipes, setRescipes] = useState();
+  const [recipes, setRescipes] = useState([]);
   useEffect(() => {
     async function load() {
       const data = await axios.get("http://localhost:3000/recipes");
@@ -13,6 +13,10 @@ export default function ManageAllRecipe() {
     }
     load();
   }, []);
+
+  const onDelete=(id)=>{
+    setRescipes(recipes.filter(item=> item.id !== id))
+  }
   return (
     <div className="overflow-x-auto w-full px-16 mt-10">
       <h1 className="text-3xl mb-4">Mange All Recipe</h1>
@@ -29,7 +33,7 @@ export default function ManageAllRecipe() {
         </thead>
         <tbody>
           {recipes?.map((recipe) => (
-            <RecipeRow key={recipe?.id} recipe={recipe} />
+            <RecipeRow key={recipe?.id} onDelete={onDelete} recipe={recipe} />
           ))}
         </tbody>
       </table>
