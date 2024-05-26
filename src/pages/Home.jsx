@@ -37,7 +37,7 @@ export default function Home() {
         <div className="grid lg:grid-cols-4 sm:grid-cols-1 md:grid-cols-2 gap-6">
           {recipes
             ?.reverse()
-            ?.slice(0, 4)
+            ?.slice(0, 6)
             ?.map((recipe) => (
               <RecepiCard key={recipe?.id} recipe={recipe} />
             ))}

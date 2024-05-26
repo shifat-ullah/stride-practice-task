@@ -6,7 +6,7 @@ export default function RecepiCard({ recipe }) {
   return (
     <div className="card  bg-base-100 shadow-xl">
       <figure>
-        <img src={recipe.photoUrl} alt="food" className="max-w-50" />
+        <img  src={recipe.photoUrl} alt="food" className="h-[200px] max-w-50" />
       </figure>
       <div className="card-body">
         <h2 className="card-title">{recipe?.title}</h2>

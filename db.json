@@ -54,7 +54,7 @@
       "price": 11.99,
       "category": "Thai",
       "description": "A traditional Thai dish made with stir-fried noodles, shrimp, tofu, and peanuts.",
-      "photoUrl": "https://example.com/photos/pad-thai.jpg"
+      "photoUrl": "https://img.freepik.com/free-photo/flat-lay-noodles-with-vegetables-chicken_23-2148377422.jpg?t=st=1716720736~exp=1716724336~hmac=50b514074498d60e1e585904c61266d8c1053d3e9e26360851d65cad3ac14451&w=740"
     },
     {
       "id": 8,
@@ -62,7 +62,7 @@
       "price": 8.49,
       "category": "Salads",
       "description": "A fresh salad with tomatoes, cucumbers, olives, feta cheese, and oregano.",
-      "photoUrl": "https://example.com/photos/greek-salad.jpg"
+      "photoUrl": "https://img.freepik.com/free-photo/salad-with-chicken-chunks-served-plate-closeup_1220-6916.jpg?t=st=1716720322~exp=1716723922~hmac=45e027a8cd3aabc2a3eeeb2ed5d5ca5577f1b592b35dedcf31c2eb8db2c09496&w=740"
     },
     {
       "id": 9,
@@ -70,7 +70,7 @@
       "price": 9.49,
       "category": "American",
       "description": "A juicy beef patty served with lettuce, tomato, cheese, and a side of fries.",
-      "photoUrl": "https://example.com/photos/hamburger.jpg"
+      "photoUrl": "https://img.freepik.com/free-photo/big-sandwich-hamburger-burger-with-beef-red-onion-tomato-fried-bacon_2829-5398.jpg?t=st=1716720693~exp=1716724293~hmac=f6cf749f676a5b629ff7d28d2e2e15a53e96112eebc5c971b14d489e78bc967a&w=740"
     },
     {
       "id": 10,
@@ -78,7 +78,7 @@
       "price": 6.99,
       "category": "Dessert",
       "description": "A classic Italian dessert made with layers of coffee-soaked ladyfingers and mascarpone cheese.",
-      "photoUrl": "https://example.com/photos/tiramisu.jpg"
+      "photoUrl": "https://img.freepik.com/free-photo/bowl-banana-split-ice-cream-with-banana-split-bananas-top_188544-32639.jpg?t=st=1716720648~exp=1716724248~hmac=79f65084184916e30dfcb59df3295b5934c50697055e8c071d8b4fc1b846bb6b&w=740"
     },
     {
       "id": 11,
@@ -86,7 +86,7 @@
       "price": 10.49,
       "category": "Vietnamese",
       "description": "A fragrant Vietnamese soup made with beef broth, rice noodles, and fresh herbs.",
-      "photoUrl": "https://example.com/photos/pho.jpg"
+      "photoUrl": "https://img.freepik.com/free-photo/top-view-fresh-delicious-chinese-food-dark-background_24972-2168.jpg?t=st=1716720577~exp=1716724177~hmac=448ba5751712b488bd108e494eea16765cb6eb592096eff74ed9d30800ee1794&w=740"
     },
     {
       "id": 12,
@@ -119,38 +119,6 @@
       "category": "Middle Eastern",
       "description": "A wrap filled with crispy falafel, fresh vegetables, and tahini sauce.",
       "photoUrl": "https://img.freepik.com/free-photo/side-view-chicken-burrito-grilled-chicken-fillet-with-rice-wrapped-tortilla-fresh-cucumber-tomato-carrot-lettuce-plate_141793-4820.jpg?t=st=1716710565~exp=1716714165~hmac=53444e6b18a75ed75535ca4c2e0c4e7d808b3632753971a1601853b7372bf1c3&w=740"
-    },
-    {
-      "id": "17",
-      "title": "Chicken Curry",
-      "price": "388",
-      "category": "Italian",
-      "description": "uiuiililuiluill",
-      "photoUrl": "https://img.freepik.com/free-photo/top-view-meat-sauce-soup-with-potatoes-greens-dark-desk_140725-76776.jpg?t=st=1716710257~exp=1716713857~hmac=c078d3130a6ec016ac3b71934eb0256512d4454189974dc87b666d382ee877d9&w=740"
-    },
-    {
-      "id": "21",
-      "title": "Chicken Curry",
-      "price": "388",
-      "category": "Italian",
-      "description": "sss",
-      "photoUrl": "https://img.freepik.com/free-photo/top-view-meat-sauce-soup-with-potatoes-greens-dark-desk_140725-76776.jpg?t=st=1716710257~exp=1716713857~hmac=c078d3130a6ec016ac3b71934eb0256512d4454189974dc87b666d382ee877d9&w=740"
-    },
-    {
-      "id": "22",
-      "title": "Chicken Curry",
-      "price": "388",
-      "category": "Italian",
-      "description": "sss",
-      "photoUrl": "https://img.freepik.com/free-photo/top-view-meat-sauce-soup-with-potatoes-greens-dark-desk_140725-76776.jpg?t=st=1716710257~exp=1716713857~hmac=c078d3130a6ec016ac3b71934eb0256512d4454189974dc87b666d382ee877d9&w=740"
-    },
-    {
-      "id": "23",
-      "title": "Chicken ",
-      "price": "00",
-      "category": "Italian",
-      "description": "sss",
-      "photoUrl": "https://img.freepik.com/free-photo/top-view-meat-sauce-soup-with-potatoes-greens-dark-desk_140725-76776.jpg?t=st=1716710257~exp=1716713857~hmac=c078d3130a6ec016ac3b71934eb0256512d4454189974dc87b666d382ee877d9&w=740"
     }
   ],
   "categories": [

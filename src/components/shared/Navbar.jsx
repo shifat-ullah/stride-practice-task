@@ -44,7 +44,7 @@ export default function Navbar() {
             </li>
           </ul>
         </div>
-        <a className=" text-xl">daisyUI</a>
+        <Link to='/' className=" text-xl">daisyUI</Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="flex items-center gap-6 px-1">
