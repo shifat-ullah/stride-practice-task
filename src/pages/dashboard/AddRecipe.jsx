@@ -1,5 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+import toast from "react-hot-toast";
+import Swal from "sweetalert2";
 
 const AddRecipe = () => {
   const [categories, setCategories] = useState();
@@ -18,23 +20,36 @@ const AddRecipe = () => {
 
   const handleCreateRecipe = async (e) => {
     e.preventDefault();
-
+  
     const form = e.target;
-
+  
     const id = form.id.value;
     const title = form.title.value;
     const price = form.price.value;
     const category = form.category.value;
     const description = form.description.value;
+    const photoUrl = form.photoUrl.value;
     const recipeData = {
       id,
       title,
       price,
       category,
       description,
+      photoUrl
     };
+    console.log(recipeData);
+  
+    axios.post("http://localhost:3000/recipes", recipeData)
+    .then((response) => {
+  
+        toast.success("Recipe added successfully")
+      
+    })
+    .catch((error) => {
+      toast.error('Failed to add recipe');
+    });
 
-    await axios.post("http://localhost:3000/recipes", recipeData);
+      
   };
   return (
     <div className="w-full px-16">
@@ -65,6 +80,18 @@ const AddRecipe = () => {
               </option>
             ))}
           </select>
+        </div>
+        <div className="mb-4">
+          <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="photoUrl">
+            Photo URL
+          </label>
+          <input
+            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            id="photoUrl"
+            name="photoUrl"
+            type="url"
+            placeholder="Enter photo URL"
+          />
         </div>
 
         <div className="mb-4">

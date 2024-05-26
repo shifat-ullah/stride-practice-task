@@ -1,68 +1,156 @@
 {
   "recipes": [
     {
-      "id": "6",
-      "title": "Beef Wellington",
-      "price": 29.99,
-      "description": "Tender beef filet wrapped in puff pastry with duxelles and prosciutto.",
-      "image": "https://example.com/images/beef-wellington.jpg",
-      "category": "British"
+      "id": "1",
+      "title": "Spaghetti Bolognese",
+      "price": "12",
+      "category": "Indian",
+      "description": "A classic Italian pasta dish with a rich and savory Bolognese sauce.",
+      "photoUrl": "https://img.freepik.com/free-photo/pasta-plate-chopping-board-with-fork_23-2148357206.jpg?w=740&t=st=1716710019~exp=1716710619~hmac=e8d109fafa3640c407b8edc6f0ee6a03a679ca9e4e3d1c27a3687c151fd9929e"
     },
     {
-      "id": "7",
-      "title": "Falafel Wrap",
+      "id": "2",
+      "title": "Chicken Curry",
+      "price": "388",
+      "category": "Japanese",
+      "description": "A flavorful Indian curry made with tender chicken pieces simmered in a spicy sauce.",
+      "photoUrl": "https://img.freepik.com/free-photo/top-view-meat-sauce-soup-with-potatoes-greens-dark-desk_140725-76776.jpg?t=st=1716710257~exp=1716713857~hmac=c078d3130a6ec016ac3b71934eb0256512d4454189974dc87b666d382ee877d9&w=740"
+    },
+    {
+      "id": 3,
+      "title": "Beef Tacos",
       "price": 8.99,
-      "description": "Crispy falafel balls wrapped in a pita with hummus, tahini, and fresh vegetables.",
-      "image": "https://example.com/images/falafel-wrap.jpg",
-      "category": "Middle Eastern"
+      "category": "Mexican",
+      "description": "Delicious beef tacos with seasoned ground beef, fresh vegetables, and a touch of lime.",
+      "photoUrl": "https://img.freepik.com/free-photo/delicious-taco-studio_23-2151047967.jpg?t=st=1716710463~exp=1716714063~hmac=23ce54582c946c0b377ed384cc35fbf9b2044caffa3dd5cb121e89b458ed2dbe&w=740"
     },
     {
-      "id": "8",
-      "title": "French Onion Soup",
+      "id": 4,
+      "title": "Caesar Salad",
       "price": 7.99,
-      "description": "A savory soup made with caramelized onions, beef broth, and topped with melted cheese.",
-      "image": "https://example.com/images/french-onion-soup.jpg",
-      "category": "French"
+      "category": "Salads",
+      "description": "Crisp romaine lettuce, croutons, and Parmesan cheese tossed in a creamy Caesar dressing.",
+      "photoUrl": "https://example.com/photos/caesar-salad.jpg"
     },
     {
-      "id": "9",
+      "id": 5,
       "title": "Margherita Pizza",
-      "price": 13.99,
-      "description": "Classic pizza topped with fresh tomatoes, mozzarella cheese, and basil.",
-      "image": "https://example.com/images/margherita-pizza.jpg",
-      "category": "Italian"
-    },
-    {
-      "id": "10",
-      "title": "Vegetable Stir Fry",
       "price": 9.99,
-      "description": "A mix of fresh vegetables stir-fried with soy sauce and served over rice.",
-      "image": "https://example.com/images/vegetable-stir-fry.jpg",
-      "category": "Chinese"
+      "category": "Italian",
+      "description": "Classic Margherita pizza with fresh tomatoes, mozzarella cheese, and basil leaves.",
+      "photoUrl": "https://example.com/photos/margherita-pizza.jpg"
     },
     {
-      "id": "11",
-      "title": "Butter Chicken",
-      "price": 16.99,
-      "description": "Tender chicken cooked in a rich, creamy tomato gravy.",
-      "image": "https://example.com/images/butter-chicken.jpg",
-      "category": "Indian"
-    },
-    {
-      "id": "12",
-      "title": "Rogan Josh",
-      "price": 17.99,
-      "description": "A flavorful lamb curry with a blend of spices and a tomato-based sauce.",
-      "image": "https://example.com/images/rogan-josh.jpg",
-      "category": "Indian"
-    },
-    {
-      "id": "13",
-      "title": "Tempura",
+      "id": 6,
+      "title": "Sushi Platter",
       "price": 14.99,
-      "description": "Lightly battered and deep-fried seafood and vegetables.",
-      "image": "https://example.com/images/tempura.jpg",
-      "category": "Japanese"
+      "category": "Japanese",
+      "description": "An assortment of fresh sushi, including nigiri, maki, and sashimi.",
+      "photoUrl": "https://example.com/photos/sushi-platter.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Pad Thai",
+      "price": 11.99,
+      "category": "Thai",
+      "description": "A traditional Thai dish made with stir-fried noodles, shrimp, tofu, and peanuts.",
+      "photoUrl": "https://example.com/photos/pad-thai.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Greek Salad",
+      "price": 8.49,
+      "category": "Salads",
+      "description": "A fresh salad with tomatoes, cucumbers, olives, feta cheese, and oregano.",
+      "photoUrl": "https://example.com/photos/greek-salad.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Hamburger",
+      "price": 9.49,
+      "category": "American",
+      "description": "A juicy beef patty served with lettuce, tomato, cheese, and a side of fries.",
+      "photoUrl": "https://example.com/photos/hamburger.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Tiramisu",
+      "price": 6.99,
+      "category": "Dessert",
+      "description": "A classic Italian dessert made with layers of coffee-soaked ladyfingers and mascarpone cheese.",
+      "photoUrl": "https://example.com/photos/tiramisu.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Pho",
+      "price": 10.49,
+      "category": "Vietnamese",
+      "description": "A fragrant Vietnamese soup made with beef broth, rice noodles, and fresh herbs.",
+      "photoUrl": "https://example.com/photos/pho.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Fish and Chips",
+      "price": 12.49,
+      "category": "British",
+      "description": "Crispy fried fish served with golden fries and a side of tartar sauce.",
+      "photoUrl": "https://img.freepik.com/free-photo/fish-chip-with-french-fries_1203-9556.jpg?t=st=1716710781~exp=1716714381~hmac=9cea55c666761fcfd822d29dc1955dd86af146e575548a970ff167180e074be6&w=740"
+    },
+    {
+      "id": 13,
+      "title": "Moussaka",
+      "price": 13.49,
+      "category": "Greek",
+      "description": "A traditional Greek dish made with layers of eggplant, ground meat, and béchamel sauce.",
+      "photoUrl": "https://img.freepik.com/premium-psd/psd-greek-moussaka-layers-eggplant-minced-meat-bechamel-sauce-baked-isolated_741910-69847.jpg?w=740"
+    },
+    {
+      "id": 14,
+      "title": "Chicken Alfredo",
+      "price": 11.99,
+      "category": "Italian",
+      "description": "A creamy pasta dish made with grilled chicken, fettuccine, and Alfredo sauce.",
+      "photoUrl": "https://img.freepik.com/free-photo/side-view-pasta-with-sauce-parmesan-mushrooms-lettuce_176474-2504.jpg?t=st=1716710615~exp=1716714215~hmac=c994270786adca7be38e4047a6e6b5f601ad1f004db4f3678799f98c7d61e5f6&w=740"
+    },
+    {
+      "id": 15,
+      "title": "Falafel Wrap",
+      "price": 7.99,
+      "category": "Middle Eastern",
+      "description": "A wrap filled with crispy falafel, fresh vegetables, and tahini sauce.",
+      "photoUrl": "https://img.freepik.com/free-photo/side-view-chicken-burrito-grilled-chicken-fillet-with-rice-wrapped-tortilla-fresh-cucumber-tomato-carrot-lettuce-plate_141793-4820.jpg?t=st=1716710565~exp=1716714165~hmac=53444e6b18a75ed75535ca4c2e0c4e7d808b3632753971a1601853b7372bf1c3&w=740"
+    },
+    {
+      "id": "17",
+      "title": "Chicken Curry",
+      "price": "388",
+      "category": "Italian",
+      "description": "uiuiililuiluill",
+      "photoUrl": "https://img.freepik.com/free-photo/top-view-meat-sauce-soup-with-potatoes-greens-dark-desk_140725-76776.jpg?t=st=1716710257~exp=1716713857~hmac=c078d3130a6ec016ac3b71934eb0256512d4454189974dc87b666d382ee877d9&w=740"
+    },
+    {
+      "id": "21",
+      "title": "Chicken Curry",
+      "price": "388",
+      "category": "Italian",
+      "description": "sss",
+      "photoUrl": "https://img.freepik.com/free-photo/top-view-meat-sauce-soup-with-potatoes-greens-dark-desk_140725-76776.jpg?t=st=1716710257~exp=1716713857~hmac=c078d3130a6ec016ac3b71934eb0256512d4454189974dc87b666d382ee877d9&w=740"
+    },
+    {
+      "id": "22",
+      "title": "Chicken Curry",
+      "price": "388",
+      "category": "Italian",
+      "description": "sss",
+      "photoUrl": "https://img.freepik.com/free-photo/top-view-meat-sauce-soup-with-potatoes-greens-dark-desk_140725-76776.jpg?t=st=1716710257~exp=1716713857~hmac=c078d3130a6ec016ac3b71934eb0256512d4454189974dc87b666d382ee877d9&w=740"
+    },
+    {
+      "id": "23",
+      "title": "Chicken ",
+      "price": "00",
+      "category": "Italian",
+      "description": "sss",
+      "photoUrl": "https://img.freepik.com/free-photo/top-view-meat-sauce-soup-with-potatoes-greens-dark-desk_140725-76776.jpg?t=st=1716710257~exp=1716713857~hmac=c078d3130a6ec016ac3b71934eb0256512d4454189974dc87b666d382ee877d9&w=740"
     }
   ],
   "categories": [

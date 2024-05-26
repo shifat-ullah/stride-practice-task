@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+import toast from "react-hot-toast";
 import { useParams } from "react-router-dom";
 
 const EditRecipe = () => {
@@ -44,6 +45,7 @@ const EditRecipe = () => {
     };
 
     await axios.patch(`http://localhost:3000/recipes/${id}`, recipeData);
+    toast.success('"Recipe Update successfully"')
   };
   return (
     <div className="w-full px-16">
