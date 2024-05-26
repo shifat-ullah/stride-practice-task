@@ -26,9 +26,9 @@ export default function DashbaordLayout() {
           aria-label="close sidebar"
           className="drawer-overlay"
         ></label>
-        <ul className="menu p-4 w-60 min-h-screen bg-base-200 text-base-content flex flex-col justify-between">
+        <ul className="menu p-4  w-60 min-h-screen bg-base-200 text-base-content flex flex-col justify-between">
           {/* Sidebar content here */}
-          <div>
+          <div className="mt-7 space-y-6">
             <li>
               <Link to={"/dashboard/manage-recipes"}>Mangae All Recipes</Link>
             </li>

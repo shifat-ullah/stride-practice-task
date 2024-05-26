@@ -10,6 +10,7 @@ import DashboardHome from "../pages/dashboard/DashboardHome";
 import ManageAllRecipe from "../pages/dashboard/ManageAllRecipe";
 import AddRecipe from "../pages/dashboard/AddRecipe";
 import EditRecipe from "../pages/dashboard/EditRecipe";
+import RecipeDetails from "../components/cards/RecipeDetails";
 
 export const router = createBrowserRouter([
   {
@@ -23,6 +24,11 @@ export const router = createBrowserRouter([
       {
         path: "about",
         element: <About />,
+      },
+      {
+        path: "details/:id",
+        element: <RecipeDetails />,
+        loader: ({params})=>fetch(`http://localhost:3000/recipes/${params.id}`)
       },
     ],
   },
